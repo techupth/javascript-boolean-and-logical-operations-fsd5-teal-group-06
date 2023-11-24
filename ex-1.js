@@ -3,7 +3,6 @@
 // Start coding here
 let isOver18 = true;
 let hasNoCriminalBlacklist = true;
-let isThai = false;
 
-let isAllow = (isOver18 && hasNoCriminalBlacklist) || isThai;
+let isAllow = isOver18 && hasNoCriminalBlacklist;
 console.log(isAllow);
